@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EntitiesRetrievedSuccessfully" xml:space="preserve">
+    <value>Récupérées avec succès</value>
+  </data>
+  <data name="EntityRetrievedSuccessfully" xml:space="preserve">
+    <value>Récupérée avec succès</value>
+  </data>
+  <data name="EntityCreatedSuccessfully" xml:space="preserve">
+    <value>Créée avec succès</value>
+  </data>
+  <data name="EntityUpdatedSuccessfully" xml:space="preserve">
+    <value>Mise à jour avec succès</value>
+  </data>
+  <data name="EntitySoftDeletedSuccessfully" xml:space="preserve">
+    <value>Supprimée (soft) avec succès</value>
+  </data>
+  <data name="EntityEnabledSuccessfully" xml:space="preserve">
+    <value>Activée avec succès</value>
+  </data>
+  <data name="EntityDisabledSuccessfully" xml:space="preserve">
+    <value>Désactivée avec succès</value>
+  </data>
+  <data name="EntityDeletedSuccessfully" xml:space="preserve">
+    <value>Supprimée avec succès</value>
+  </data>
+  <data name="EntityNotFound" xml:space="preserve">
+    <value>Non trouvée</value>
+  </data>
+  <data name="InvalidEntityData" xml:space="preserve">
+    <value>Données d'entité non valides</value>
+  </data>
+  <data name="ErrorType_MISMATCH_IDENTIFIER" xml:space="preserve">
+    <value>The identifier for the given entity doesn't match or is null/empty.</value>
+  </data>
+  <data name="ErrorType_MISMATCH_ENTITY" xml:space="preserve">
+    <value>The record to be updated doesn't match the record with the given ID</value>
+  </data>
+  <data name="ErrorType_PRE_PROCESSING_ERROR" xml:space="preserve">
+  <value>A pre-processing error has occurred.</value>
+  </data>
+  <data name="ErrorType_POST_PROCESSING_ERROR" xml:space="preserve">
+    <value>A post-processing error has occurred.</value>
+  </data>
+  <data name="ErrorType_NO_DATA_FOUND" xml:space="preserve">
+    <value>No data found.</value>
+  </data>
+</root>

@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.wakanda.framework", "org.wakanda.framework.csproj", "{8CC00FAF-F8E8-497D-CBC8-0552734B730A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CC00FAF-F8E8-497D-CBC8-0552734B730A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC00FAF-F8E8-497D-CBC8-0552734B730A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC00FAF-F8E8-497D-CBC8-0552734B730A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC00FAF-F8E8-497D-CBC8-0552734B730A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D42EE3A6-3FC5-4B0B-AA77-363BEF6DF033}
+	EndGlobalSection
+EndGlobal

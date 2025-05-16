@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+
+    <!-- Let the pipeline drive this -->
+    <Version>2.0.22</Version>
+  
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>org.wakanda.framework</PackageId>
+    <RootNamespace>org.wakanda.framework</RootNamespace>
+    <AssemblyName>org.wakanda.framework</AssemblyName>
+    <Authors>Wakanda</Authors>
+    <Company>Wakanda</Company>
+    <Description>Wakanda framework library containing repositories, filters, services, utilities, caching and messaging abstractions.</Description>
+    <PackageTags>Wakanda;Repository;Service;Filter;Cache;MessageBroker;Utilities</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/wakanda/framework</RepositoryUrl>
+
+    <IncludeSymbols>false</IncludeSymbols>
+    <IncludeSource>false</IncludeSource>
+    <NoWarn>NU5101;NU5102</NoWarn>
+
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <Deterministic>true</Deterministic>
+    <PackageOutputPath>./nupkgs</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.8.31" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Confluent.Kafka" Version="1.9.2" />
+    <PackageReference Include="Serilog.AspNetCore" Version="6.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.2.3" />
+  </ItemGroup>
+</Project>
